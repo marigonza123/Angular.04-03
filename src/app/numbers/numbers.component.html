@@ -1,0 +1,9 @@
+<h2>Números</h2>
+<h3>Contador</h3>
+<p>{{ counter }}&nbsp;<button (click)="add()">Add</button></p>
+<h3>Números aleatórios</h3>
+<table>
+  <tr *ngFor="let n of getRandomNumbers()">
+    <td>{{n}}</td>
+  </tr>
+</table>
